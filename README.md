@@ -52,22 +52,24 @@ url-shortener/
 
 └── README.md
 
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository
+git clone https://github.com/your-username/url-shortener.git
+cd url-shortener
+
 2. Install dependencies
-bash
-Copy
-Edit
 npm install
-3. Create a .env file in the root folder:
-env
-Copy
-Edit
+
+3. Create a .env file in the root directory
 PORT=8000
 MONGODB_URI=mongodb://localhost:27017/Short-ID
-Replace the MongoDB URI if you're using a cloud-hosted database like MongoDB Atlas.
+✅ Replace the MONGODB_URI value if you're using a cloud-hosted database like MongoDB Atlas.
 
 4. Start the server
-bash
-Copy
-Edit
 npm start
-Server runs on http://localhost:8000
+
+The server will start at: http://localhost:8000
